@@ -1,9 +1,10 @@
-<img width="655" alt="Screenshot 2024-09-07 at 7 06 24 PM" src="https://github.com/user-attachments/assets/9b71dfe5-3bbd-4dd0-819c-ff4005ef76bb">
 # Local RAG System with FAISS and SQLite
 
 ## Overview
 
 This repository provides a solution for setting up a local Retrieval-Augmented Generation (RAG) system using FAISS for high-performance vector search and SQLite for managing text metadata. This setup is particularly suited for projects with a few thousand documents but can be scaled as needed. You may choose a different index/database i.e modify the code as per your needs. This is mainly to show how to synchronize data between FAISS and SQLite. This repo currently does not include steps like preprocessing/connecting to a LLM. I am planning to build over this as and when I get time.
+
+<img width="655" alt="Screenshot 2024-09-07 at 7 06 24 PM" src="https://github.com/user-attachments/assets/9b71dfe5-3bbd-4dd0-819c-ff4005ef76bb">
 
 
 ### 1. FAISS for Vector Search
