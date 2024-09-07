@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides a solution for setting up a local Retrieval-Augmented Generation (RAG) system using FAISS for high-performance vector search and SQLite for managing text metadata. This setup is particularly suited for projects with a few thousand documents but can be scaled as needed. You may choose a different index or database. This repo currently does not include steps like preprocessing/connecting it to a LLM.  
+This repository provides a solution for setting up a local Retrieval-Augmented Generation (RAG) system using FAISS for high-performance vector search and SQLite for managing text metadata. This setup is particularly suited for projects with a few thousand documents but can be scaled as needed. You may choose a different index or database. This repo currently does not include steps like preprocessing/connecting to a LLM.  
 
 
 ### 1. FAISS for Vector Search
