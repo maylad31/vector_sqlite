@@ -45,4 +45,4 @@ Check faiss github repo for instructions on how to install it.
 ## Contact
 
 If you have an interesting project, you may connect with me on https://www.linkedin.com/in/mayankladdha31/
-Please start this repo if you found it useful.
+Please star this repo if you found it useful.
