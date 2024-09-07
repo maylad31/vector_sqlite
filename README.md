@@ -1,3 +1,4 @@
+<img width="655" alt="Screenshot 2024-09-07 at 7 06 24 PM" src="https://github.com/user-attachments/assets/9b71dfe5-3bbd-4dd0-819c-ff4005ef76bb">
 # Local RAG System with FAISS and SQLite
 
 ## Overview
