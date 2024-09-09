@@ -29,7 +29,7 @@ Connect faiss with sqlite. Keep vectors in faiss, data in sqlite. Planning to ad
 
 ## Installation
 
-For faiss, check its github repo for instructions on how to install it. Sqlite come with Python.
+For faiss, check its github repo for instructions on how to install it. Sqlite comes with Python.
 
 ## Contact
 
