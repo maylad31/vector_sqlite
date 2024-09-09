@@ -2,7 +2,7 @@
 
 ## Overview
 
-Connect faiss with sqlite. Keep vectors in faiss, data in sqlite. Planning to add usearch, qdrant and support for fts. Why use this? For RAG, libraries like langchain are overcomplicated, going through docs and changing stuff is hard, and on top of that they change frequently. I prefer to have much more control on my pipeline and if you feel the same, this code might be a good starting point.
+Connect faiss with sqlite. Keep vectors in faiss, data in sqlite. Planning to add support for fts and may be alternatives for faiss. Why use this? For RAG, libraries like langchain are overcomplicated, going through docs and changing stuff is hard, and on top of that they change frequently. I prefer to have much more control on my pipeline and if you feel the same, this code might be a good starting point.
 
 <img width="655" alt="Screenshot 2024-09-07 at 7 06 24 PM" src="https://github.com/user-attachments/assets/9b71dfe5-3bbd-4dd0-819c-ff4005ef76bb">
 
