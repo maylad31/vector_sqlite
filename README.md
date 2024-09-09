@@ -2,20 +2,9 @@
 
 ## Overview
 
-This repository provides a solution for setting up a local Retrieval-Augmented Generation (RAG) system using FAISS for high-performance vector search and SQLite for managing text metadata. This setup is particularly suited for projects with a few thousand documents but can be scaled as needed. You may choose a different index/database i.e modify the code as per your needs. This is mainly to show how to synchronize data between FAISS and SQLite. This repo currently does not include steps like preprocessing/connecting to a LLM. I am planning to build over this as and when I get time.
+Connect faiss with sqlite. Keep vectors in faiss, data in sqlite. Planning to add usearch, qdrant and support for fts. Why use this? For RAG, libraries like langchain are overcomplicated, going through docs and changing stuff is hard, and on top of that they change frequently. I prefer to have much more control on my pipeline and if you feel the same, this code might be a good starting point.
 
 <img width="655" alt="Screenshot 2024-09-07 at 7 06 24 PM" src="https://github.com/user-attachments/assets/9b71dfe5-3bbd-4dd0-819c-ff4005ef76bb">
-
-
-### 1. FAISS for Vector Search
-
-**FAISS (Facebook AI Similarity Search)** is an efficient library for performing similarity search on high-dimensional vectors. In this setup:
-- **`IndexIDMap2`**: This FAISS index stores vectors and maps them to unique IDs. 
-
-### 2. SQLite for Metadata Storage
-
-- **Metadata Table**: Stores text and other information related to each vector. The table uses the same IDs as FAISS to link vectors to their metadata.
-
 
 ## Detailed Solution
 
@@ -40,7 +29,7 @@ This repository provides a solution for setting up a local Retrieval-Augmented G
 
 ## Installation
 
-Check faiss github repo for instructions on how to install it.
+For faiss, check its github repo for instructions on how to install it. Sqlite come with Python.
 
 ## Contact
 
