@@ -1,4 +1,4 @@
-# Local RAG System with FAISS and SQLite
+# FAISS with SQLite
 
 ## Overview
 
